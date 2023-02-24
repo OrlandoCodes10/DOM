@@ -12,5 +12,3 @@ const makeRandColor = () => {
     const b = Math.floor(Math.random() * 255); 
     return `rgb(${r}, ${g}, ${b})`;
 }
-
-//Figure our threshold for dark color background

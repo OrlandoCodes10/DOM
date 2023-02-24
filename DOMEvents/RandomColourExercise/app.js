@@ -13,3 +13,4 @@ const makeRandColor = () => {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
+//Figure our threshold for dark color background

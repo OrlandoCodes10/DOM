@@ -7,5 +7,7 @@ form.addEventListener("submit", function (e) {
     const newLI = document.createElement("LI");
     newLI.innerText = catName;
     list.append(newLI);
+
+    input.value = "";
 });
 
